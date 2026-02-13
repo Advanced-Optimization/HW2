@@ -1,0 +1,24 @@
+name: adv_opt2
+channels:
+  - conda-forge
+  - defaults
+  - mosek
+  - pytorch
+dependencies:
+  - python=3.12
+  - pip
+  - pytest
+
+  - pytorch
+  - cpuonly
+
+  - black=25.11
+  - cvxpy
+  - jupyter
+  - matplotlib
+  - mosek
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn

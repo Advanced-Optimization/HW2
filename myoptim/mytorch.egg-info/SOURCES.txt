@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+myoptim/solver.py
+mytorch.egg-info/PKG-INFO
+mytorch.egg-info/SOURCES.txt
+mytorch.egg-info/dependency_links.txt
+mytorch.egg-info/requires.txt
+mytorch.egg-info/top_level.txt
+tests/test_solver.py

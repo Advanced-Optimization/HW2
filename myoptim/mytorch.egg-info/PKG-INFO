@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mytorch
+Version: 0.1.0
+Summary: A simple machine learning package
+Author-email: Frederike Dümbgen <fduembgen@cmu.edu>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# mytorch
+
+A simple package for custom implementation of deep learning pipelines. 
