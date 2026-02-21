@@ -10,14 +10,14 @@ from myoptim.solver import (
 # ============================================================
 
 
-def test_sqp_eq_newton():
+def test_solve_sqp_eq():
     NotImplementedError
 
 
-def test_alm_solve():
+def test_solve_alm_eq():
     NotImplementedError
 
 
 if __name__ == "__main__":
-    test_sqp_eq_newton()
-    test_alm_solve()
+    test_solve_sqp_eq()
+    test_solve_alm_eq()
