@@ -1,8 +1,8 @@
 import numpy as np
 
 from myoptim.solver import (
-    sqp_eq_newton,
-    alm_solve
+    solve_sqp_eq,
+    solve_alm_eq
 )
 
 # ============================================================

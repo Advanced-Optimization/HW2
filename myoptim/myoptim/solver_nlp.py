@@ -4,7 +4,7 @@ import numpy as np
 # ============================================================
 # SQP for NLP:
 # ============================================================
-def sqp_eq_newton(
+def solve_sqp_eq(
     x0: np.ndarray,
     l0: np.ndarray | None = None,
     max_iter: int = 50,
@@ -17,7 +17,7 @@ def sqp_eq_newton(
 # ============================================================
 # Augmented Lagrangian method for NLP:
 # ============================================================
-def alm_solve(
+def solve_alm_eq(
     x0,
     max_outer=200,
     max_inner=200,
